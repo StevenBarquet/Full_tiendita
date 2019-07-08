@@ -1,0 +1,68 @@
+{
+  "_embedded" : {
+    "datosClientes" : [ {
+      "name" : "Howard",
+      "apellidos" : "Lovecraft",
+      "email" : "hward@op.com",
+      "telefono" : "55-43-33-63",
+      "direccion" : "Providence RoadIsland",
+      "pass" : "Necronomicon",
+      "_links" : {
+        "self" : {
+          "href" : "http://189.232.77.237:3000/datosClientes/1"
+        },
+        "datosCliente" : {
+          "href" : "http://189.232.77.237:3000/datosClientes/1"
+        }
+      }
+    }, {
+      "name" : "Viktor",
+      "apellidos" : "Phillps",
+      "email" : "hexnucleo@boot.com",
+      "telefono" : "54-73-83-23",
+      "direccion" : "Termaturgia",
+      "pass" : "Creador123",
+      "_links" : {
+        "self" : {
+          "href" : "http://189.232.77.237:3000/datosClientes/2"
+        },
+        "datosCliente" : {
+          "href" : "http://189.232.77.237:3000/datosClientes/2"
+        }
+      }
+    }, {
+      "name" : "Papu",
+      "apellidos" : "Plox",
+      "email" : ".l.@,mmm",
+      "telefono" : "000000000",
+      "direccion" : "qwerty",
+      "pass" : "123",
+      "_links" : {
+        "self" : {
+          "href" : "http://189.232.77.237:3000/datosClientes/3"
+        },
+        "datosCliente" : {
+          "href" : "http://189.232.77.237:3000/datosClientes/3"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://189.232.77.237:3000/datosClientes{?page,size,sort}",
+      "templated" : true
+    },
+    "profile" : {
+      "href" : "http://189.232.77.237:3000/profile/datosClientes"
+    },
+    "search" : {
+      "href" : "http://189.232.77.237:3000/datosClientes/search"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 3,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
